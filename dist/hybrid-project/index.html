@@ -1,12 +1,31 @@
 <!DOCTYPE html><html lang="en"><head>
-  <meta charset="utf-8">
-  <title>HybridProject</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-<link rel="stylesheet" href="styles.ef46db3751d8e999.css"></head>
-<body>
-  <app-root></app-root>
-<script src="runtime.6d330e068ce0a2fe.js" type="module"></script><script src="polyfills.ca80727516d28694.js" type="module"></script><script src="main.734b0452cffe783e.js" type="module"></script>
+    <meta charset="utf-8">
+    <title>HybridProject</title>
+    <base href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="styles.ef46db3751d8e999.css"></head>
+  <body>
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.9.2/firebase-app.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+
+      // Your web app's Firebase configuration
+      const firebaseConfig = {
+        apiKey: "AIzaSyA25_qYbRZhOiLmMQHiGKvr4ifnvEf0j6c",
+        authDomain: "hybrid-project-7aac1.firebaseapp.com",
+        projectId: "hybrid-project-7aac1",
+        storageBucket: "hybrid-project-7aac1.appspot.com",
+        messagingSenderId: "29667421225",
+        appId: "1:29667421225:web:8bfc12cbb7b6f8eff70038",
+      };
+
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+    </script>
+    <app-root></app-root>
+  <script src="runtime.6d330e068ce0a2fe.js" type="module"></script><script src="polyfills.ca80727516d28694.js" type="module"></script><script src="main.734b0452cffe783e.js" type="module"></script>
 
 </body></html>
